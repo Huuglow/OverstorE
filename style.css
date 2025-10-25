@@ -1,10 +1,10 @@
 @font-face {
-	font-family: 'bebas';
-	src: url(fonts/BBHSansBartle-Regular.ttf) format('truetype');
+	font-family: 'dancing script';
+	src: url(fonts/DancingScript-VariableFont_wght.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'bungee';
-    src: url(fonts/Bungee-Regular.ttf) format('truetype');
+    font-family: 'Lob-bold';
+    src: url(fonts/LobsterTwo-BoldItalic.ttf) format('truetype');
 }
 @font-face {
     font-family: 'sansb';
@@ -47,7 +47,7 @@
 }
 /*Cuerpo**/ 
 body{
-	background: #9b9478;/*Color De Fondo**/
+	background: #FAF9F6;/*Color De Fondo**/
 	color: #fff;/* Color Basico De Texto **/
 }
 /* ///////////HEAD/////////////**/
@@ -61,13 +61,13 @@ body{
 }
 /* Titulo **/
 h1{
-	color: #878c6b;/* Color **/
-	font-family: 'bebas', sans-serif;/* Fuente **/
+	color: #B87333;/* Color **/
+	font-family: montserrat underline;/* Fuente **/
 	font-size: 70px;/* Tamano**/
 	padding: 20px;/* Relleno borde**/
 	margin: 0 0 0 0;/* Separacion del borde  **/
 	text-align: center;/* Texto Al Centro**/
-	text-shadow: #2f4858 2px 2px 4px;/* Sombra Del Texto**/
+	text-shadow: #6c818f 2px 2px 4px;/* Sombra Del Texto**/
 	transform:scaleX(1.2)/* Alargue Del Texto En Horizontal**/
 }
 /* Pantallas pequenas **/
@@ -79,9 +79,9 @@ h1 {
 }}
 /* Texto Debajo Del H1**/
 .frase-abajo{
-	color: #6991c3;
-	font-family: "Inconsolata", monospace;
-	font-size: 35px;
+	color: #CD5C5C;
+	font-family: montserrat alternates;
+	font-size: 20px;
 	margin: 10px;
 	padding: 10px;
 }
@@ -98,7 +98,7 @@ h1 {
     z-index: 1; /* Se Asegura Que Esté Por Encima Del Contenido */
     top: 0;
     left: 0;
-    background-color: #6585a8; /* Color De fondo Azul */
+    background-color: #386c5f; /* Color De fondo Azul */
     border-radius: 10px;
     overflow-x: hidden; /* Desactiva El Scroll Horizontal */
     transition: 0.5s; /* Animación De Apertura y Cierre */
@@ -158,8 +158,8 @@ h1 {
     padding: 10px 0;
 }
 .btn-ver-carrito {
-    background-color: #7599b1;
-    color: white !important; /* Importante Para Sobreescribir El Color Gris */
+    background-color: #2f4f2f; 
+    color: #fff; /* Importante Para Sobreescribir El Color Gris */
     text-align: center;
     border-radius: 5px;
     margin-top: 15px;
@@ -172,9 +172,11 @@ h1 {
 /* ///////////DISENO DE TITULO DE CATEGORIA/////////////**/
 .category{
     display: flex; /* Deja Que El Objeto Se Mueva Mas Facil**/
-    font-family: 'sansb';
+    font-family: garamond ; /* Fuente **/
+    font-weight: lighter;
     font-size: 80px;
-    margin: 30px;
+    color: #CD7F32;
+    margin: 5%;
     justify-content: center; /* Centra El Texto Horizontalmente */
 }
 @media (max-width: 768px) {
@@ -185,18 +187,21 @@ h1 {
 }
 /* /////////TITULO HOMBRE/////////////**/
 .hombre{
-    background: #ffffff;
+    background: #2F4F2F;
     color: #000;
+    border-radius: 10px;
 }
 /* /////////TITULO MUJER/////////////**/
 .mujer{
-    background: #a190dd;
+    background: #386c5f;
     color: #000;
+    border-radius: 10px;
 }
 /* /////////TITULO CHAMACOS/////////////**/
-.chamacos{
-    background: #f7a8b8;
+.ninos{
+    background: #5f805d;
     color: #000;
+    border-radius: 10px;
 }
 /* /////////INFORMACION DE LOS PRODUCTOS/////////////**/
 .grid-productos {
@@ -232,7 +237,7 @@ h1 {
 @media (max-width: 768px) {
     .tarjeta-producto {
     /* Tu regla para ajustar el ancho */
-    width: 40%;
+    width: calc(50% - 10px);
     transform: none;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
@@ -248,9 +253,16 @@ h1 {
     display: flex;
     font-family: 'Inconsolata', monospace;
     flex-direction: column;
+    flex-grow: 1;
     align-items: center; /* Centra todo horizontalmente */
     text-align: center;
-    padding: 15px 15px 25px 15px;
+    padding: 15px;
+@media (max-width: 768px) {
+    .info-producto {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    }
 }
 /*Tamano De Tarjeta**/
 .tarjeta-producto img {
@@ -270,4 +282,8 @@ h1 {
     width: 80%;
     cursor: pointer;
     margin-bottom: 15px;
+}
+.descripcion{
+    flex-grow: 1;
+}
 }
