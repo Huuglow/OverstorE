@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OverStore</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <header id="inicio" class="fade-in-seccion">
+            <div class="titulo-centrado">
+            <h1>Welcome<br>to<br>OverStore</h1>
+            <p class="class frase-abajo">ROMPEMOS MOLDES. CONSTRUIMOS ESTILO</p>
+            </div>    
+        </header>
+    </div>
+<aside>
+    <button class="open-btn" onclick="openNav()">
+        <i class="bi bi-battery"></i>
+    </button>
+    <nav id=""mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+        <div class="car-section">
+            <h4>🛒 Mi Carrito</h4>
+            <a href="/carrito.html" class="btn-ver-carrito">Ver Carrito</a>
+        </div>
+    </nav>
+</aside>
+<section id="hombre" class="hombre">
+<section class="fade-in-seccion">
+    <h2>VATO</h2>
+</section>
+<div class="grid-productos">
+    <article class="tarjeta-producto">
+        <img src="images/cargo.png" alt="Cargo tipo pana, corte acho"><!--Imagen del Producto-->
+        <div class="info-producto">
+            <h3>Pantalon Cargo</h3><!--Nombre Del Producto-->
+            <p class="descripcion">Pantalon cargo de pana con bolsas grandes a los costados</p><!--Descripcion rapida del producto-->
+            <p class="precio">$1,200.00 MXN</p><!--Precio-->
+            <button class="boton-comprar">Agregar al carrito</button><!--Boton Agregar al carrito-->
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/rompevientos.jpg" alt="Chamarra rompevientos camuflaje verde, diseñada para protección contra el viento, presentada en un entorno urbano.">
+        <div class="info-producto">
+            <h3>Rompevientos Camuflajeada</h3>
+            <p class="descripcion">Chamarra rompevientos camuflaje verde</p>
+            <p class="precio">$1,000.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button><article class="tarjeta-producto">
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/remera.jpg" alt="Cargo tipo pana, corte acho">
+        <div class="info-producto">
+            <h3>Playera Oversize</h3>
+            <p class="descripcion">Playera oversize color negra con estampado Byond Future</p>
+            <p class="precio">$500.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+
+    <article class="tarjeta-producto">
+        <img src="images/sudaderastwd.jpg" alt="Cargo tipo pana, corte acho">
+        <div class="info-producto">
+            <h3>Sudadera STWD</h3>
+            <p class="descripcion">Sudadera negra con parches de STWD</p>
+            <p class="precio">$1,000.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images//camisajuice.jpg" alt="camisa blanca con estampado Juice de sandia">
+        <div class="info-product">
+            <h3>Camisa JUICE</h3>
+            <p class="descripcion">camisa blanca con estampado Juice de sandia</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/cargogris.png" alt="pantalon cargo color gris con bolsas a los costados">
+        <div class="info-product">
+            <h3>Cargo Gris</h3>
+            <p class="descripcion">pantalon cargo color gris con bolsas a los costados</p>
+            <p class="precio">$1,200.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/chamarrapana.jpg" alt="chamarra de pana cafe claro">
+        <div class="info-product">
+            <h3>Chamarra de pana</h3>
+            <p class="descripcion">chamarra de pana cafe claro</p>
+            <p class="precio">$1,500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+            </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/camisa.png" alt="camisa color menta estampado de Trunk"s>
+        <div class="info-product">
+            <h3>Camisa Trunk</h3>
+            <p class="descripcion">camisa color menta estampado de Trunk</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+</div>
+</section>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="mujer" class="mujer">
+<section class="fade-in-seccion">
+    <h2>MORRA</h2>
+</section>
+    <div class="grid-productos">
+    <article class="tarjeta-producto">
+        <img src="images/cargo.png" alt="Cargo tipo pana, corte acho"><!--Imagen del Producto-->
+        <div class="info-producto">
+            <h3>Pantalon Cargo</h3><!--Nombre Del Producto-->
+            <p class="descripcion">Pantalon cargo de pana con bolsas grandes a los costados</p><!--Descripcion rapida del producto-->
+            <p class="precio">$1,200.00 MXN</p><!--Precio-->
+            <button class="boton-comprar">Agregar al carrito</button><!--Boton Agregar al carrito-->
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/rompevientos.jpg" alt="Chamarra rompevientos camuflaje verde, diseñada para protección contra el viento, presentada en un entorno urbano.">
+        <div class="info-producto">
+            <h3>Rompevientos Camuflajeada</h3>
+            <p class="descripcion">Chamarra rompevientos camuflaje verde</p>
+            <p class="precio">$1,000.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button><article class="tarjeta-producto">
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/remera.jpg" alt="Cargo tipo pana, corte acho">
+        <div class="info-producto">
+            <h3>Playera Oversize</h3>
+            <p class="descripcion">Playera oversize color negra con estampado Byond Future</p>
+            <p class="precio">$500.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+
+    <article class="tarjeta-producto">
+        <img src="images/sudaderastwd.jpg" alt="Cargo tipo pana, corte acho">
+        <div class="info-producto">
+            <h3>Sudadera STWD</h3>
+            <p class="descripcion">Sudadera negra con parches de STWD</p>
+            <p class="precio">$1,000.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images//camisajuice.jpg" alt="camisa blanca con estampado Juice de sandia">
+        <div class="info-product">
+            <h3>Camisa JUICE</h3>
+            <p class="descripcion">camisa blanca con estampado Juice de sandia</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/cargogris.png" alt="pantalon cargo color gris con bolsas a los costados">
+        <div class="info-product">
+            <h3>Cargo Gris</h3>
+            <p class="descripcion">pantalon cargo color gris con bolsas a los costados</p>
+            <p class="precio">$1,200.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/chamarrapana.jpg" alt="chamarra de pana cafe claro">
+        <div class="info-product">
+            <h3>Chamarra de pana</h3>
+            <p class="descripcion">chamarra de pana cafe claro</p>
+            <p class="precio">$1,500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+            </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/camisa.png" alt="camisa color menta estampado de Trunk"s>
+        <div class="info-product">
+            <h3>Camisa Trunk</h3>
+            <p class="descripcion">camisa color menta estampado de Trunk</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>        
+    </div>
+</section>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="chamacos" class="chamacos">
+    <section class="fade-in-seccion">
+        <h2>CHAMACOS</h2>
+    </section>
+    <div class="grid-productos">
+    <article class="tarjeta-producto">
+        <img src="images/cargo.png" alt="Cargo tipo pana, corte acho"><!--Imagen del Producto-->
+        <div class="info-producto">
+            <h3>Pantalon Cargo</h3><!--Nombre Del Producto-->
+            <p class="descripcion">Pantalon cargo de pana con bolsas grandes a los costados</p><!--Descripcion rapida del producto-->
+            <p class="precio">$1,200.00 MXN</p><!--Precio-->
+            <button class="boton-comprar">Agregar al carrito</button><!--Boton Agregar al carrito-->
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/rompevientos.jpg" alt="Chamarra rompevientos camuflaje verde, diseñada para protección contra el viento, presentada en un entorno urbano.">
+        <div class="info-producto">
+            <h3>Rompevientos Camuflajeada</h3>
+            <p class="descripcion">Chamarra rompevientos camuflaje verde</p>
+            <p class="precio">$1,000.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button><article class="tarjeta-producto">
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/remera.jpg" alt="Cargo tipo pana, corte acho">
+        <div class="info-producto">
+            <h3>Playera Oversize</h3>
+            <p class="descripcion">Playera oversize color negra con estampado Byond Future</p>
+            <p class="precio">$500.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+
+    <article class="tarjeta-producto">
+        <img src="images/sudaderastwd.jpg" alt="Cargo tipo pana, corte acho">
+        <div class="info-producto">
+            <h3>Sudadera STWD</h3>
+            <p class="descripcion">Sudadera negra con parches de STWD</p>
+            <p class="precio">$1,000.00 MXN</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images//camisajuice.jpg" alt="camisa blanca con estampado Juice de sandia">
+        <div class="info-product">
+            <h3>Camisa JUICE</h3>
+            <p class="descripcion">camisa blanca con estampado Juice de sandia</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/cargogris.png" alt="pantalon cargo color gris con bolsas a los costados">
+        <div class="info-product">
+            <h3>Cargo Gris</h3>
+            <p class="descripcion">pantalon cargo color gris con bolsas a los costados</p>
+            <p class="precio">$1,200.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/chamarrapana.jpg" alt="chamarra de pana cafe claro">
+        <div class="info-product">
+            <h3>Chamarra de pana</h3>
+            <p class="descripcion">chamarra de pana cafe claro</p>
+            <p class="precio">$1,500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+            </div>
+    </article>
+	
+    <article class="tarjeta-producto">
+        <img src="images/camisa.png" alt="camisa color menta estampado de Trunk"s>
+        <div class="info-product">
+            <h3>Camisa Trunk</h3>
+            <p class="descripcion">camisa color menta estampado de Trunk</p>
+            <p class="precio">$500.00</p>
+            <button class="boton-comprar">Agregar al carrito</button>
+        </div>
+    </article>
+    </div>
+</section>
+<footer>Web Creada Por Victor Mendez</footer>
+</body>
+</html>
